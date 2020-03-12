@@ -22,7 +22,7 @@ end
 
 def find_the_cheese(cheeses)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese.detect do |cheese|
-    cheese_types.include?(cheeses)
+  cheeses.detect do |cheese|
+    cheese_types.include?(cheese)
   end
 end
