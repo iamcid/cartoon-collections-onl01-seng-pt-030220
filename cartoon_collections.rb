@@ -13,7 +13,7 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(calls)
-  if calls.any? {|planetteer| planetteer.length > 4}
+  if calls.any? {|planeteer| planeteer.length > 4}
     return true
   else
     return false
