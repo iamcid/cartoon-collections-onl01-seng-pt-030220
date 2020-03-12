@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(elements)
   elements.map do |el|
-    el.capitalize
+    el.capitalize + "!"
   end
 end
 
